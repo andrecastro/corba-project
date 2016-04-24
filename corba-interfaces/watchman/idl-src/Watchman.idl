@@ -1,0 +1,8 @@
+module Watchman
+{
+  interface Watchman {
+    long getNumberOfPeople();
+    void incrementNumberOfPeople();
+    void decrementNumberOfPeople();
+  };
+};

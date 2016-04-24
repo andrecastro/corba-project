@@ -1,0 +1,7 @@
+module Bell
+{
+  interface Bell {
+    void startDing();
+    void stopDing();
+  };
+};
