@@ -37,9 +37,9 @@ After that, initiate the Naming Service with: `tnameserv`
 
 Now you can run the UI in this order:
 
-    - bell-ui: Run the class *App.java* inside the *br.edu.ifce.corba.main*
-    - watchman-ui: Run the class *App.java* inside the *br.edu.ifce.corba.main*
-    - gate-ui: Run the class *App.java* inside the *br.edu.ifce.corba.main*
+    - bell-ui: Run the class **App.java** inside the **br.edu.ifce.corba.main**
+    - watchman-ui: Run the class **App.java** inside the **br.edu.ifce.corba.main**
+    - gate-ui: Run the class **App.java** inside the **br.edu.ifce.corba.main**
 
 You will need to follow this order because the watchman is dependent on the bell, and the gate is dependent on the
 watchman, so make sure you follow the order.
