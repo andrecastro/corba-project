@@ -20,9 +20,9 @@ This project is divided in some maven modules:
 
 ###### Dependencies
 
-    - Java 8
-    - Maven 3
-    - CORBA (the project uses the idlj compiler that comes with jdk)
+- Java 8
+- Maven 3
+- CORBA (the project uses the idlj compiler that comes with jdk)
 
 ###### Hands on
 
@@ -37,12 +37,12 @@ After that, initiate the Naming Service with: `tnameserv`
 
 Now you can run the UI in this order:
 
-    1. bell-ui:
-        * Run the class *App.java* inside the *br.edu.ifce.corba.main*
-    2. watchman-ui:
-        * Run the class *App.java* inside the *br.edu.ifce.corba.main*
-    3. gate-ui:
-        * Run the class *App.java* inside the *br.edu.ifce.corba.main*
+1. bell-ui:
+    * Run the class *App.java* inside the *br.edu.ifce.corba.main*
+2. watchman-ui:
+    * Run the class *App.java* inside the *br.edu.ifce.corba.main*
+3. gate-ui:
+    * Run the class *App.java* inside the *br.edu.ifce.corba.main*
 
 You will need to follow this order because the watchman is dependent on the bell, and the gate is dependent on the
 watchman, so make sure you follow the order.
