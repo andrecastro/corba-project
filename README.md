@@ -33,8 +33,7 @@ After this command the CORBA interfaces, inside bell and watchman folders, will 
 will be generated and installed as a java library.
 Now just refresh the UI modules in your IDE to make sure the the classes are correctly imported by them.
 
-After that, initiate the Naming Service with:
-    - `tnameserv`
+After that, initiate the Naming Service with: `tnameserv`
 
 Now you can run the UI in this order:
 
@@ -45,8 +44,7 @@ Now you can run the UI in this order:
 You will need to follow this order because the watchman is dependent on the bell, and the gate is dependent on the
 watchman, so make sure you follow the order.
 
-If you want to run the naming service in another port, just run:
-    - `tnameserv -ORBInitialPort 9001`
+If you want to run the naming service in another port, just run: `tnameserv -ORBInitialPort 9001`
 
 and make sure you run the App.java with the arguments `-ORBInitialPort` and `-ORBInitialHost`
 
