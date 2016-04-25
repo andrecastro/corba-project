@@ -1,6 +1,6 @@
 # CORBA-project
 
-###### Understanding the structure
+## Understanding the structure
 
 This project is divided in some maven modules:
 
@@ -18,13 +18,13 @@ This project is divided in some maven modules:
          - watchman-client: Module used to generate only the client classes from the CORBA interface.
          - watchman-server: Module used to generate all classes from the CORBA interface.
 
-###### Dependencies
+## Dependencies
 
 - Java 8
 - Maven 3
 - CORBA (the project uses the idlj compiler that comes with jdk)
 
-###### Hands on
+## Hands on
 
 To make it works works, you need to install the module **corba-interfaces**:
     `cd corba-interfaces && mvn install`
